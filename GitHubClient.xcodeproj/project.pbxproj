@@ -35,7 +35,7 @@
 		14AD2F4D2858131C009FC488 = {
 			isa = PBXGroup;
 			children = (
-				14AD2F582858131C009FC488 /* GitHubClient */,
+				14AD2F582858131C009FC488 /* Shared */,
 				14AD2F572858131C009FC488 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,7 +48,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14AD2F582858131C009FC488 /* GitHubClient */ = {
+		14AD2F582858131C009FC488 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				14AD2F592858131C009FC488 /* GitHubClientApp.swift */,
@@ -56,7 +56,7 @@
 				14AD2F5D2858131E009FC488 /* Assets.xcassets */,
 				14AD2F5F2858131E009FC488 /* Preview Content */,
 			);
-			path = GitHubClient;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		14AD2F5F2858131E009FC488 /* Preview Content */ = {

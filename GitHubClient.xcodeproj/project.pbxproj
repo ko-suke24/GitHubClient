@@ -17,6 +17,7 @@
 		14AD2F6F285844BC009FC488 /* RepoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD2F6E285844BC009FC488 /* RepoDetailView.swift */; };
 		14AD2F742858490E009FC488 /* Repo+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD2F732858490E009FC488 /* Repo+mock.swift */; };
 		14AD2F762858493E009FC488 /* User+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD2F752858493E009FC488 /* User+mock.swift */; };
+		14F81B20285D5F2500E6C237 /* Stateful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F81B1F285D5F2500E6C237 /* Stateful.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		14AD2F6E285844BC009FC488 /* RepoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailView.swift; sourceTree = "<group>"; };
 		14AD2F732858490E009FC488 /* Repo+mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Repo+mock.swift"; sourceTree = "<group>"; };
 		14AD2F752858493E009FC488 /* User+mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+mock.swift"; sourceTree = "<group>"; };
+		14F81B1F285D5F2500E6C237 /* Stateful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stateful.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				14AD2F592858131C009FC488 /* GitHubClientApp.swift */,
 				14AD2F7028584530009FC488 /* Views */,
 				14AD2F6B28583455009FC488 /* Models */,
+				14F81B1E285D5EE700E6C237 /* Utilities */,
 				14AD2F5D2858131E009FC488 /* Assets.xcassets */,
 				14AD2F5F2858131E009FC488 /* Preview Content */,
 			);
@@ -107,6 +110,14 @@
 				14AD2F752858493E009FC488 /* User+mock.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		14F81B1E285D5EE700E6C237 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				14F81B1F285D5F2500E6C237 /* Stateful.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				14AD2F742858490E009FC488 /* Repo+mock.swift in Sources */,
 				14AD2F6A28583435009FC488 /* User.swift in Sources */,
 				14AD2F6828583429009FC488 /* Repo.swift in Sources */,
+				14F81B20285D5F2500E6C237 /* Stateful.swift in Sources */,
 				14AD2F6F285844BC009FC488 /* RepoDetailView.swift in Sources */,
 				14AD2F5C2858131C009FC488 /* RepoListView.swift in Sources */,
 				14AD2F762858493E009FC488 /* User+mock.swift in Sources */,
